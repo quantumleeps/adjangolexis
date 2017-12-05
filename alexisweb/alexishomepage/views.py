@@ -4,6 +4,7 @@ from django.shortcuts import render
 
 def index(request):
     context = {}
+    context['bg_url'] = 'alexishomepage/img/bg_01.jpg'
     return render(request, 'alexishomepage/index.html', context)
 
 def resume(request):

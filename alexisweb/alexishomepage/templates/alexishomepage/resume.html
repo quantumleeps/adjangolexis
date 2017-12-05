@@ -1,4 +1,93 @@
 {% extends 'alexishomepage/base.html' %} 
 {% block content %} 
-    hi resume 
+{% load static %}
+
+<style>
+    #home-div {
+        background-image: url("{% static 'alexishomepage/img/bg_02.jpg' %}");
+        height: 100%;
+    }
+</style>
+    
+        <div id="home-div" class="picture-content">
+                <div id="resume-container" class="container">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <h1>Alexis Field</h1>
+                                    <h4>World's most happiest gal</h4>
+                                </div>
+                                <div class="col">
+                                    <p><a href="http://alexisfield.yolasite.com/resources/AMF%20RESUME.pdf">Click here</a> to download the PDF. It's got a bit more detail than what I could get onto your iPhone's
+                                        screen</p>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <br>
+                        <b>TV/Film</b>
+                        <table class="table table-sm">
+                            <tbody>
+                                <tr>
+                                    <td>By the book</td>
+                                    <td>Web Series (star) </td>
+                                    <td>Dir. John Say </td>
+                                </tr>
+                                <tr>
+                                    <td>Literally Right Before Aaron (w/Justin Long) </td>
+                                    <td>FeatureFilm </td>
+                                    <td>Dir. Ryan Eggold </td>
+                                </tr>
+                                <tr>
+                                    <td>Time We Share </td>
+                                    <td>Short</td>
+                                    <td>Dir. Colin Doyle</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <b>NYC Theatre / Off-Broadway / National Tours</b>
+                        <table class="table table-sm">
+                            <tbody>
+                                <tr>
+                                    <td>By the book</td>
+                                    <td>Web Series (star) </td>
+                                    <td>Dir. John Say </td>
+                                </tr>
+                                <tr>
+                                    <td>Literally Right Before Aaron (w/Justin Long) </td>
+                                    <td>FeatureFilm </td>
+                                    <td>Dir. Ryan Eggold </td>
+                                </tr>
+                                <tr>
+                                    <td>Time We Share </td>
+                                    <td>Short</td>
+                                    <td>Dir. Colin Doyle</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <b>Regional</b>
+            
+                        <table class="table table-sm">
+                            <tbody>
+                                <tr>
+                                    <td>By the book</td>
+                                    <td>Web Series (star) </td>
+                                    <td>Dir. John Say </td>
+                                </tr>
+                                <tr>
+                                    <td>Literally Right Before Aaron (w/Justin Long) </td>
+                                    <td>FeatureFilm </td>
+                                    <td>Dir. Ryan Eggold </td>
+                                </tr>
+                                <tr>
+                                    <td>Time We Share </td>
+                                    <td>Short</td>
+                                    <td>Dir. Colin Doyle</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+        </div>
+        
+
 {% endblock %}

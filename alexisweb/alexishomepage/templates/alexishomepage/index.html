@@ -1,4 +1,20 @@
 {% extends 'alexishomepage/base.html' %} 
 {% block content %} 
-    hi 
+{% load static %}
+
+<style>
+    #home-div {
+        background-image: url("{% static 'alexishomepage/img/bg_01.jpg' %}");
+        height: 100%;
+    }
+</style>
+    
+        <div id="home-div" class="picture-content">
+            <div class="jumbotron alexis-comment">
+                "Ya only live once, Humpa"
+                <br>-Lex
+            </div>>
+        </div>
+        
+
 {% endblock %}

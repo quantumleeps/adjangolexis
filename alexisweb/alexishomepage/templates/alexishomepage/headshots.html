@@ -1,4 +1,17 @@
 {% extends 'alexishomepage/base.html' %} 
 {% block content %} 
-    hi headshots 
+{% load static %}
+
+<style>
+    #home-div {
+        background-image: url("{% static 'alexishomepage/img/bg_03.jpg' %}");
+        height: 100%;
+    }
+</style>
+    
+        <div id="home-div" class="picture-content">
+            &nbsp
+        </div>
+        
+
 {% endblock %}
